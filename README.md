@@ -1,7 +1,5 @@
 # FaceASI — 3D Facial Asymmetry Measurement and Visualization
 
-**Conference research software | Python v62 and MATLAB ASI viewer**
-
 FaceASI is an experimental workflow for capturing facial RGB and stereo-depth data with a Luxonis OAK camera, extracting MediaPipe face landmarks, calculating three-dimensional facial asymmetry measurements, exporting scan data, and reviewing the measurements in MATLAB.
 
 The **Python program** provides a touch-friendly capture/review interface, device acquisition, measurements, smoothing, and CSV export. The **MATLAB program** imports the exported scan CSV and provides 3D cloud visualization, landmark-to-landmark distances, frame-based measurements, ASI plots, and related quality-control views.
@@ -94,10 +92,6 @@ Results = MATLAB_FaceAssymmetry('ScanCSV', '/path/to/Scan_001_Neutral.csv');
 
 Or call `MATLAB_FaceAssymmetry` with no arguments to browse for a scan CSV. The CSV must be the **single long-format FaceASI export**, not `cloud.csv`, `landmarks.csv`, or `burst_asi_frames.csv` from an internal capture folder.
 
-**Public-release source changes:** The MATLAB function and its internal Open-scan callback were renamed to match `MATLAB_FaceAssymmetry.m`; the Python usage-header filename was updated to match `Python_FaceAssymmetry.py`. No ASI algorithms were changed.
-
-**Privacy-safe release difference:** The supplied full MATLAB source contained an embedded 30-frame human face point cloud/landmark recording. This public version removes **only the embedded recording and its demo-only loading implementation**. Python and MATLAB calculations, real CSV import, GUI controls, and plotting logic are otherwise preserved. The `UseEmbedded=true` demonstration is deliberately unavailable here. See `docs/PRIVACY.md`.
-
 ## Workflow
 
 1. Capture a research scan with the Python program using a suitable camera and an approved study protocol.
@@ -113,18 +107,6 @@ Or call `MATLAB_FaceAssymmetry` with no arguments to browse for a scan CSV. The 
 - MATLAB was not available in the packaging environment; MATLAB execution, GUI display, and Python-to-MATLAB matching need to be checked by the team before publication.
 - The MATLAB release retains the original CSV processing logic; the old embedded demonstration is not distributed.
 
-## Code availability and citation
-
-The repository URL is already configured below. Before public release, confirm that the rights holders permit distributing all included contributions under **CC BY-SA 4.0**. Contributor attribution is described in `ATTRIBUTION.md`.
-
-Suggested conference-paper wording **after the repository is public**:
-
-> The Python acquisition and processing application and MATLAB visualization source code are available at https://github.com/hslaugi/FaceASI-3D-Facial-Asymmetry under the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license. Recorded facial data are not included.
-
-**Use this URL in the paper only after the repository has actually been created and made public.** See `docs/RELEASE_CHECKLIST.md`.
-
 ## Licensing
 
 The repository's original project source code and documentation are provided under the **[Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/)** license, subject to the scope and exclusions in [`LICENSE`](LICENSE). Reuse requires appropriate credit, a license link, indication of changes, and ShareAlike for adaptations. This license permits commercial reuse; it does not mean a reuse is clinically validated.
-
-**Before public release**, obtain the necessary contributor, prior-team, sponsor, and institutional permissions; see [`ATTRIBUTION.md`](ATTRIBUTION.md). The license does not apply to third-party dependencies or unpublished/identifiable face recordings. Creative Commons itself generally recommends software-specific licenses rather than CC licenses for code; CC BY-SA 4.0 is used here because this project requires it. See the [Creative Commons FAQ](https://creativecommons.org/faq/#can-i-apply-a-creative-commons-license-to-software).
