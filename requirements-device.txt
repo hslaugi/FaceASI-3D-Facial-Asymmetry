@@ -1,0 +1,8 @@
+# Indicative only. Verify installation on your OAK / Raspberry Pi image first.
+# The source describes an existing working Kivy 2.3.1 / MediaPipe 0.10.21 environment.
+# For DepthAI v2, replace the v3 requirement with the compatible installed v2 build.
+numpy>=1.24,<3
+opencv-python>=4.8,<5
+Kivy==2.3.1
+mediapipe==0.10.21
+depthai>=3,<4

@@ -1,0 +1,44 @@
+# Python/build environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+
+# Device/subject data and capture outputs: never commit raw faces
+results/
+**/results/
+**/single_captures/
+**/captures/
+**/scans/
+**/Scans/
+*.csv
+*.mat
+*.npy
+*.npz
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.mp4
+*.avi
+*.sqlite3
+*.db
+*.log
+*.partial
+*.tmp
+
+# Credentials and per-machine settings
+.env
+.env.*
+settings.json
+*.pem
+*.key
+*.p12
+.DS_Store
+Thumbs.db
