@@ -2,7 +2,7 @@
 
 These descriptions are based on the **included source code**, not on a claim that the method is clinically validated. Measurements are experimental.
 
-## Python v62 (device-side)
+## Python (device-side)
 
 `compute_three_region_asi()` builds a local head coordinate system from **Subnasale** (origin), the **Nasion–Subnasale** vertical direction, and three valid eye/brow bilateral reference pairs (medial canthi, lateral canthi, and superciliare proxies). The selected upper pairs are brow proxies, lateral canthi, and medial canthi; lower pairs are alare and cheilion. Zygoma is not selected by default.
 
