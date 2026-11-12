@@ -1,7 +1,0 @@
-PASS v48: 3D ASI symmetry/H/V/D, pose invariance, partial coverage, missing reference, counts, all 3 expression labels and saved 3-frame ASIs.
-PASS: symmetry, vertical and depth sensitivity, pose invariance, missing landmarks, fixed view, CSV round-trip, and 3 render modes.
-Renderer ms (this machine, NOT Raspberry Pi): 45.7, 33.1, 24.7
-PASS v53: causal mean/median, window changes, warm-up, invalid and changed coverage, 468-point measured-depth extraction, 90-frame save/reload/export, CSV-only defaults, legacy files.
-PASS v54: whole-recording means, invalid-frame exclusion, fixed pair coverage and legacy missing-depth behavior.
-Camera: OAK-D Pro (mock) | DepthAI 3.fake (test) | IR dot=0.35, flood=0.10; IR drivers=['LM3644']
-PASS v59: camera metadata, successful IR activation, unsupported-IR error, and synchronized RGB/depth frame validation (mock, no camera).
