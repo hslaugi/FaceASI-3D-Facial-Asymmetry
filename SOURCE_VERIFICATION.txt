@@ -1,4 +1,0 @@
-Python release file: 231,007 bytes; SHA256 5035946f1367233d7b77b77ca1916583f065b47b0e6132eb1ce6dca459c50254
-MATLAB public release file: 122,997 bytes; SHA256 872aa0e599c400232b95789002c7310079411784409fb79173cc09dc1edd06c4
-File identity and usage-header changes only; no ASI algorithm changes in this revision.
-PASS public-source integrity and basic embedded-payload guard (see scripts/verify_sources.py)
