@@ -11,26 +11,21 @@ The **Python program** provides a touch-friendly capture/review interface, devic
 ```text
 FaceASI-3D-Facial-Asymmetry/
 ├── python/
-│   └── Python_FaceAssymmetry.py   # Python v62; filename and usage header updated
+│   └── Python_FaceAssymmetry.py   
 ├── matlab/
-│   └── MATLAB_FaceAssymmetry.m   # MATLAB scan viewer; human data excluded
+│   └── MATLAB_FaceAssymmetry.m   # MATLAB scan viewer;
 ├── docs/
 │   ├── METHODS.md               # ASI definitions and Python/MATLAB differences
 │   ├── DATA_FORMAT.md           # Python-to-MATLAB long-format CSV contract
-│   ├── REPRODUCIBILITY.md       # Environment and test limitations
 │   ├── PRIVACY.md               # Data/consent and release restrictions
 │   ├── CODE_REVIEW.md           # Verified checks and outstanding hardware tests
-│   └── RELEASE_CHECKLIST.md     # Required steps before publishing
 ├── examples/
-│   └── README.md                # Use synthetic demo; no human recordings bundled
+│   └── README.md                # Use synthetic demo
 ├── scripts/
 │   └── verify_sources.py        # Verify source integrity and public-release boundary
-├── .github/workflows/
-│   └── python-tests.yml         # Python syntax + built-in self-tests
 ├── requirements-test.txt
 ├── requirements-device.txt
 ├── LICENSE                     # CC BY-SA 4.0 license and official legal-code link
-├── ATTRIBUTION.md             # Contributor credits and release changes
 └── .gitignore
 ```
 
