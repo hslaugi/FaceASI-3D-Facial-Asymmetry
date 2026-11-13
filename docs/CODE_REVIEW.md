@@ -2,7 +2,7 @@
 
 ## Python application (`Python_FaceAssymmetry.py`)
 
-Source features directly confirmed in v62 include: OAK camera acquisition with v2/v3 DepthAI branches, RGB/depth frame guards, calibrated deprojection, 21 predefined MediaPipe facial labels, optional dense FaceMesh vertices, experimental three-region H/V/D ASI, legacy calculation modes, a Kivy UI, temporal smoothing, local CSV packet save/load, one-file scan exports, and internal regression tests.
+Source features directly confirmed include: OAK camera acquisition with v2/v3 DepthAI branches, RGB/depth frame guards, calibrated deprojection, 21 predefined MediaPipe facial labels, optional dense FaceMesh vertices, experimental three-region H/V/D ASI, legacy calculation modes, a Kivy UI, temporal smoothing, local CSV packet save/load, one-file scan exports, and internal regression tests.
 
 **Checks:** Python syntax check **passed** and the script's full `--self-test` suite **passed** in this environment. This includes 3D geometry regression cases, partial/missing data handling, 90-frame CSV export/reload tests, and simulated IR-camera controls. The tests do not prove real-hardware functionality.
 
