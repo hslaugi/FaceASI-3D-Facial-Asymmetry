@@ -31,4 +31,4 @@ The linked images and SolidWorks files will appear here after they are uploaded 
 
 ## Attribution and publication permissions
 
-The design and previous work are credited to the authors of [1] and the original project contributors. **Citation alone does not grant permission to republish or relicense the CAD images or SolidWorks files.** Confirm permission from the relevant designers and rights holders before uploading them publicly under the repository's CC BY-SA 4.0 license. The images shown here are not copied from the ASME paper PDF; they must be provided separately from authorized source files.
+The design and previous work are credited to the authors of [1] and the original project contributors. **Citation alone does not grant permission to republish or relicense the CAD images or SolidWorks files.** Confirm permission from the relevant designers and rights holders before uploading them publicly under the repository's CC BY-SA 4.0 license.
