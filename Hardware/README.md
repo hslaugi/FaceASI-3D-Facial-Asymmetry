@@ -8,22 +8,22 @@ These files document the **earlier prototype design** on which the current Senio
 
 ### Housing rendering 1
 
-![Previous FaceASI housing CAD rendering 1](Shell5Design.jpg)
+![Previous FaceASI housing CAD rendering 1](Shell5Design.JPG)
 
 ### Housing rendering 2
 
-![Previous FaceASI housing CAD rendering 2](Shell5Design1.jpg)
+![Previous FaceASI housing CAD rendering 2](Shell5Design1.JPG)
 
 ### Housing rendering 3
 
-![Previous FaceASI housing CAD rendering 3](Shell5Design2.jpg)
+![Previous FaceASI housing CAD rendering 3](Shell5Design2.JPG)
 
 ## SolidWorks design files
 
 - [Housing shell — Shell5Design.SLDPRT](Shell5Design.SLDPRT)
 - [Housing lid — Lid5Design.SLDPRT](Lid5Design.SLDPRT)
 
-The linked images and SolidWorks files will appear here after they are uploaded to this `Hardware/` folder with the filenames shown above.
+The image and SolidWorks files are provided in this folder. Click a rendering or CAD filename to view or download the corresponding file.
 
 ## Reference
 
